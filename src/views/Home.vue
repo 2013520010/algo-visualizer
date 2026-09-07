@@ -27,6 +27,46 @@
           </div>
           <div class="card-footer">开始体验 →</div>
         </router-link>
+
+        <router-link to="/nqueens" class="card">
+          <div class="card-icon">♛</div>
+          <h2>N 皇后回溯</h2>
+          <p>观察回溯算法如何试错、回退、找到解</p>
+          <div class="tags"><span>回溯</span><span>递归</span></div>
+          <div class="card-footer">开始体验 →</div>
+        </router-link>
+
+        <router-link to="/maze" class="card">
+          <div class="card-icon">🧱</div>
+          <h2>迷宫生成</h2>
+          <p>递归回溯实时挖墙，再用 BFS 求解</p>
+          <div class="tags"><span>DFS 生成</span><span>BFS 求解</span></div>
+          <div class="card-footer">开始体验 →</div>
+        </router-link>
+
+        <router-link to="/binarytree" class="card">
+          <div class="card-icon">🌳</div>
+          <h2>二叉树遍历</h2>
+          <p>随机生成 BST，观察四种遍历顺序</p>
+          <div class="tags"><span>前序</span><span>中序</span><span>后序</span><span>层序</span></div>
+          <div class="card-footer">开始体验 →</div>
+        </router-link>
+
+        <router-link to="/linkedlist" class="card">
+          <div class="card-icon">🔗</div>
+          <h2>链表操作</h2>
+          <p>头插/尾插/删除，以及经典的三指针反转</p>
+          <div class="tags"><span>插入</span><span>删除</span><span>反转</span></div>
+          <div class="card-footer">开始体验 →</div>
+        </router-link>
+
+        <router-link to="/hashtable" class="card">
+          <div class="card-icon">#️⃣</div>
+          <h2>哈希表</h2>
+          <p>除留余数法映射，链地址法解决冲突</p>
+          <div class="tags"><span>哈希</span><span>冲突</span><span>链地址</span></div>
+          <div class="card-footer">开始体验 →</div>
+        </router-link>
       </div>
 
       <div class="features">
