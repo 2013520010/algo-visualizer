@@ -10,6 +10,10 @@
 <p align="center">一个交互式<b>算法与数据结构可视化</b>平台，让抽象算法变得直观可见。</p>
 
 <p align="center">
+  🔗 <a href="https://2013520010.github.io/algo-visualizer/"><b>在线体验</b></a>
+</p>
+
+<p align="center">
   <a href="#-功能特性">功能特性</a> ·
   <a href="#-支持的算法">支持的算法</a> ·
   <a href="#-快速开始">快速开始</a> ·
