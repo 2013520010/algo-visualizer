@@ -86,6 +86,18 @@
           <p>拖动起点终点、自由绘制障碍</p>
         </div>
       </div>
+
+      <div class="author">
+        <div class="author-avatar">📝</div>
+        <div class="author-info">
+          <h3>关于作者</h3>
+          <p>
+            <a href="https://blog.csdn.net/qq_41187124?type=blog" target="_blank" rel="noopener" class="author-name">知远漫谈</a>
+            <span class="author-desc"> · 专注算法、数据结构与编程技术分享</span>
+          </p>
+          <a href="https://blog.csdn.net/qq_41187124?type=blog" target="_blank" rel="noopener" class="author-link">访问我的博客 ↗</a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -191,5 +203,52 @@ import NavBar from '@/components/NavBar.vue'
 .feature p {
   color: var(--text-muted);
   font-size: 13px;
+}
+.author {
+  margin-top: 48px;
+  padding: 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-align: left;
+}
+.author-avatar {
+  font-size: 40px;
+  flex-shrink: 0;
+}
+.author-info h3 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: var(--accent);
+}
+.author-info p {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.author-name {
+  color: var(--text);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 16px;
+}
+.author-name:hover {
+  color: var(--accent);
+}
+.author-desc {
+  color: var(--text-muted);
+}
+.author-link {
+  display: inline-block;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.author-link:hover {
+  text-decoration: underline;
 }
 </style>
